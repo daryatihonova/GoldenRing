@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-[#f0ece8]">
+    <div class="w-full max-w-md p-6 bg-[#f0ece8] rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold text-center mb-6">Регистрация</h2>
+        
+        <form>
+            <div class="mb-4">
+                <label class="block mb-1 text-gray-700" for="name">Ваше имя</label>
+                <input id="name" type="text" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Ваше имя">
+            </div>
+            
+            <div class="mb-4">
+                <label class="block mb-1 text-gray-700" for="email">Электронная почта</label>
+                <input id="email" type="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Электронная почта">
+            </div>
+            
+            <div class="mb-4">
+                <label class="block mb-1 text-gray-700" for="password">Пароль</label>
+                <input id="password" type="password" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Пароль">
+            </div>
+            
+            <div class="mb-6">
+                <label class="block mb-1 text-gray-700" for="confirm-password">Подтверждение пароля</label>
+                <input id="confirm-password" type="password" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Подтверждение пароля">
+            </div>
+            <a href="lichiycabinet.html"> 
+            <button type="submit" class="w-full py-2 mb-4 text-white bg-black rounded-md hover:bg-gray-800">зарегистрироваться</button>
+            </a>
+            <p class="text-center text-sm text-gray-700">
+                Уже есть аккаунт? <a href="avtorization.html" class="text-blue-600 hover:underline">нажмите здесь</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

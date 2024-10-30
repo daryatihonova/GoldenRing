@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Ring of Russia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Основной контейнер для круга */
+        .circle {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эмблемы городов */
+        .emblem {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+        }
+
+        /* Центральный круг с текстом */
+        .center-circle {
+            width: 400px;
+            height: 400px;
+            border: 1px solid #d4cfc9;
+            border-radius: 50%;
+            background-color: #f0ece8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="bg-[#f0ece8] h-screen flex items-center justify-center">
+    <div class="circle">
+        <div class="center-circle">
+            <p class="text-center text-lg font-medium text-gray-700">Золотое кольцо<br>России</p>
+        </div>
+
+        <!-- Эмблемы городов с позиционированием -->
+        <div class="emblem" style="top: 10%; left: 50%; transform: translate(-50%, -50%);">
+            <img src="yaroslavl.png" alt="Yaroslavl Emblem" class="mx-auto">
+            <p class="text-center text-xs mt-1">Ярославль</p>
+        </div>
+        
+        <div class="emblem" style="top: 30%; left: 85%; transform: translate(-50%, -50%);">
+            <img src="kostroma.png" alt="Kostroma Emblem" class="mx-auto">
+            <p class="text-center text-xs mt-1">Кострома</p>
+        </div>
+
+        <div class="emblem" style="top: 70%; left: 85%; transform: translate(-50%, -50%);">
+            <img src="ivanovo.png" alt="Ivanovo Emblem" class="mx-auto">
+            <p class="text-center text-xs mt-1">Иваново</p>
+        </div>
+
+        <div class="emblem" style="top: 90%; left: 50%; transform: translate(-50%, -50%);">
+            <img src="suzdal.png" alt="Suzdal Emblem" class="mx-auto">
+            <p class="text-center text-xs mt-1">Суздаль</p>
+        </div>
+
+        <div class="emblem" style="top: 70%; left: 15%; transform: translate(-50%, -50%);">
+            <img src="vladimir.png" alt="Vladimir Emblem" class="mx-auto">
+            <a href="vladimir.html">
+                <p class="text-center text-xs mt-1">Владимир</p>
+            </a>
+        </div>
+
+        <div class="emblem" style="top: 30%; left: 15%; transform: translate(-50%, -50%);">
+            <img src="sergiev_posad.png" alt="Sergiyev Posad Emblem" class="mx-auto">
+            <p class="text-center text-xs mt-1">Сергиев Посад</p>
+        </div>
+
+        <div class="emblem" style="top: 10%; left: 35%; transform: translate(-50%, -50%);">
+            <img src="pereyaslavl_zaleskiy.png" alt="Pereslavl-Zalessky Emblem" class="mx-auto">
+            <p class="text-center text-xs mt-1">Переславль-Залесский</p>
+        </div>
+
+        <div class="emblem" style="top: 10%; left: 65%; transform: translate(-50%, -50%);">
+            <img src="rostov.png" alt="Rostov Emblem" class="mx-auto">
+            <p class="text-center text-xs mt-1">Ростов</p>
+        </div>
+    </div>
+
+    <!-- Кнопка входа -->
+    <div class="absolute top-5 right-5 text-xl text-gray-700 font-medium" style="width: 35px;">
+        <a href="registration.html">
+            <img src="login.png" alt="Login">
+        </a>
+    </div>

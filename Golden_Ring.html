@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-[#f0ece8] font-sans flex justify-center items-center h-screen">
+    <div class="w-4/5 max-w-4xl bg-[#f0ece8] p-8">
+        <h1 class="text-center text-2xl font-bold mb-6">Золотые ворота  <i class="far fa-heart text-2xl"></i></h1>
+        <div class="grid grid-cols-3 gap-6">
+            <div class="col-span-2 space-y-4">
+                <div class="bg-[#f0ece8] h-60 flex items-center justify-center"> 
+                    <img src="Golden_Gate.jpg" alt="Золотые ворота" class="h-full w-auto object-cover">
+                </div>
+                <div class="bg-gray-300 h-32 flex items-center justify-center">карта</div>
+            </div>
+            <div class="space-y-4">
+                <p class="text-xl font-semibold">Описание</p>
+                <div class="border-t border-gray-400 py-2">
+                    <p class="border-b border-dotted border-gray-400 mb-2">Ворота выполнены в стиле древнерусской архитектуры, украшены резьбой и имеют две башни.
+                         В их основании можно увидеть остатки старинного крепостного вала. 
+                        Золотые ворота не только архитектурный памятник, но и место, связанное с ключевыми событиями в истории Руси.</p>
+                </div>
+            
+            </div>
+        </div>
+        <div class="mt-8">
+            <h2 class="text-lg font-bold mb-4">Отзывы</h2>
+            <div class="grid grid-cols-3 gap-4 mb-4">
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-300 h-12 w-12"></div>
+                    <p class="text-sm mt-1">имя</p>
+                </div>
+                <div class="col-span-2">
+                    <p class="border-b border-dotted border-gray-400 mb-2">текст отзыва</p>
+                    <button class="border border-gray-400 px-2 py-1 text-sm">рейтинг</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-4 mb-4">
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-300 h-12 w-12"></div>
+                    <p class="text-sm mt-1">имя</p>
+                </div>
+                <div class="col-span-2">
+                    <p class="border-b border-dotted border-gray-400 mb-2">текст отзыва</p>
+                    <button class="border border-gray-400 px-2 py-1 text-sm">рейтинг</button>
+                </div>
+            </div>
+            <div class="flex justify-center mt-6">
+                <a href="otzyv.html"> 
+                <button class="border border-gray-400 px-4 py-2">оставить отзыв</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
